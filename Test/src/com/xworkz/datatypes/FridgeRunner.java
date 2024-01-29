@@ -1,0 +1,180 @@
+package com.xworkz.datatypes;
+
+import com.xworkz.datatypes.example.Fridge;
+
+public class FridgeRunner {
+
+	public static void main(String[] args) 
+	{
+
+		Fridge fridge=new Fridge();
+		
+		fridge.brandName="Samsung";
+		
+		System.out.println(fridge.brandName);
+		
+		fridge.color="black";
+		System.out.println(fridge.color);
+		fridge.material="Dazzel Steel";
+		System.out.println(fridge.material);
+		fridge.capacity=325;
+		System.out.println(fridge.capacity);
+		fridge.type="Frost Free Refrigerator";
+		System.out.println(fridge.type);
+		fridge.height=164;
+		System.out.println(fridge.height);
+		fridge.weight=65;
+		System.out.println(fridge.weight);
+		fridge.price=34990;
+		System.out.println(fridge.price);
+		fridge.energyEfficiency=3;
+		System.out.println(fridge.energyEfficiency);
+		fridge.PowerConsumption=805;
+		System.out.println(fridge.PowerConsumption);
+		fridge.tempratureControl=7;
+		System.out.println(fridge.tempratureControl);
+		fridge.coolingSystem="Turbo Cooling";
+		System.out.println(fridge.coolingSystem);
+		fridge.climateClass=true;
+		System.out.println(fridge.climateClass);
+		fridge.noiseLevel="Gurgling Sound";
+		System.out.println(fridge.noiseLevel);
+		fridge.doorHinge="Left side";
+		System.out.println(fridge.doorHinge);
+		fridge.numberOfDoors=3;
+		System.out.println(fridge.numberOfDoors);
+		fridge.doorDesign="Flat";
+		System.out.println(fridge.doorDesign);
+		fridge.havingDoorAlaram=false;
+		System.out.println(fridge.havingDoorAlaram);
+		fridge.interiorLightingMode="Medium";
+		System.out.println(fridge.interiorLightingMode);
+		fridge.numberOfshevles=3;
+		System.out.println(fridge.numberOfshevles);
+		fridge.shelfMaterial="Toughened Glass";
+		System.out.println(fridge.shelfMaterial);
+		fridge.isItHasACrisperDrawers=true;
+		System.out.println(fridge.isItHasACrisperDrawers);
+		fridge.isItHaveATempratureZone=true;
+		System.out.println(fridge.isItHaveATempratureZone);
+		fridge.iceMakeres=" Twist Ice Maker";
+		System.out.println(fridge.iceMakeres);
+		fridge.freezerShelves=1;
+		System.out.println(fridge.freezerShelves);
+		fridge.freezerCapacity=85;
+		System.out.println(fridge.freezerCapacity);
+		fridge.freshFoodCapacity=240;
+		System.out.println(fridge.freshFoodCapacity);
+		fridge.waterDispenser="Reserving Water inside the Refrigerator";
+		System.out.println(fridge.waterDispenser);
+		fridge.isItHaveChildLock=true;
+		System.out.println(fridge.isItHaveChildLock);
+		fridge.filtrationSystem="Automatic";
+		System.out.println(fridge.filtrationSystem);
+		fridge.smartConnectivity="Wifi or Bluetooth";
+		System.out.println(fridge.smartConnectivity);
+		fridge.isItTouchControl=false;
+		System.out.println(fridge.isItTouchControl);
+		fridge.isItHasAdjusetableFeet=true;
+		System.out.println(fridge.isItHasAdjusetableFeet);
+		fridge.isItAFastFreez=true;
+		System.out.println(fridge.isItAFastFreez);
+		fridge.shelfType="Fiber";
+		System.out.println(fridge.shelfType);
+		fridge.freezerDrawer=1;
+		System.out.println(fridge.freezerDrawer);
+		fridge.isItHasAAirPurification=true;
+		System.out.println(fridge.isItHasAAirPurification);
+		fridge.isItAMultiAirFlowSystem=false;
+		System.out.println(fridge.isItAMultiAirFlowSystem);
+		fridge.isItHasAQuickCool=true;
+		System.out.println(fridge.isItHasAQuickCool);
+		fridge.willIteAlertAPowerFailur=true;
+		System.out.println(fridge.willIteAlertAPowerFailur);
+		fridge.isItStabilizerFree=false;
+		System.out.println(fridge.isItStabilizerFree);
+		fridge.riversibleDoor="Right side";
+		System.out.println(fridge.riversibleDoor);
+		fridge.vacationMode="Vacation mood is On when we On";
+		System.out.println(fridge.vacationMode);
+		fridge.isItHasOpenDoorAlaram=false;
+		System.out.println(fridge.isItHasOpenDoorAlaram);
+		fridge.configuration="Full Sized Freezer-on-Bottom";
+		System.out.println(fridge.configuration);
+		fridge.isItHasShelfclose=false;
+		System.out.println(fridge.isItHasShelfclose);
+		fridge.isItHaveAGlassDoor=false;
+		System.out.println(fridge.isItHaveAGlassDoor);
+		fridge.isItconvertableFromFreezerToRefrigerator=true;
+		System.out.println(fridge.isItconvertableFromFreezerToRefrigerator);
+		fridge.isItAdjustableDoorBins=true;
+		System.out.println(fridge.isItAdjustableDoorBins);
+		fridge.dairyCompartment=1;
+		System.out.println(fridge.dairyCompartment);
+		fridge.eggTray=1;
+		System.out.println(fridge.eggTray);
+		fridge.wineRack=2;
+		System.out.println(fridge.wineRack);
+		fridge.isItTouchScreendisplay=false;
+		System.out.println(fridge.isItTouchScreendisplay);
+		fridge.doorStorage=1;
+		System.out.println(fridge.doorStorage);
+		fridge.isItTopFrezer=true;
+		System.out.println(fridge.isItTopFrezer);
+		fridge.isItBotomFrezer=false;
+		System.out.println(fridge.isItBotomFrezer);
+		fridge.doorFinish="Steel";
+		System.out.println(fridge.doorFinish);
+		fridge.doorSwingSide="Right to Left";
+		System.out.println(fridge.doorSwingSide);
+		fridge.selfClosingDoors=" Self closing doors Present";
+		System.out.println(fridge.selfClosingDoors);
+		fridge.haveATemperatureMemory=false;
+		System.out.println(fridge.haveATemperatureMemory);
+		fridge.adjustableCrisperHumidity="Control over humidity in crisper drawers";
+		System.out.println(fridge.adjustableCrisperHumidity);
+		fridge.isItHaveAFreezerTemperatureIndicator=true;
+		System.out.println(fridge.isItHaveAFreezerTemperatureIndicator);
+		fridge.isIthaveARefrigeratorTemperatureIndicator=true;
+		System.out.println(fridge.isIthaveARefrigeratorTemperatureIndicator);
+		fridge.beverageChillerCompartment=1;
+		System.out.println(fridge.beverageChillerCompartment);
+		fridge.autoDefrostFreezer=false;
+		System.out.println(fridge.autoDefrostFreezer);
+		fridge.doorRackGallonStorage=1;
+		System.out.println(fridge.doorRackGallonStorage);
+		fridge.isItHavingAfingerprintResistance=false;
+		System.out.println(fridge.isItHavingAfingerprintResistance);
+		fridge.openDrawerAlert="On";
+		System.out.println(fridge.openDrawerAlert);
+		fridge.airTightCrisper="present";
+		System.out.println(fridge.airTightCrisper);
+		fridge.isItAVisibleHiddenHinges=true;
+		System.out.println(fridge.isItAVisibleHiddenHinges);
+		fridge.isItAAdjustableSplitShelves=true;
+		System.out.println(fridge.isItAAdjustableSplitShelves);
+		fridge.itItAdjustableFreezerBins=true;
+		System.out.println(fridge.itItAdjustableFreezerBins);
+		fridge.freezerLight="Medium";
+		System.out.println(fridge.freezerLight);
+		fridge.refrigeratorLight="High";
+		System.out.println(fridge.refrigeratorLight);
+		fridge.isItHavingDoorBaskets=true;
+		System.out.println(fridge.isItHavingDoorBaskets);
+		fridge.liftUpShelf=0;
+		System.out.println(fridge.liftUpShelf);
+		fridge.warranty=1;
+		System.out.println(fridge.warranty);
+		fridge.dimensions=66;
+		System.out.println(fridge.dimensions);
+		fridge.paymentType="Credit card";
+		System.out.println(fridge.paymentType);
+		fridge.numberOfClosedRacks=2;
+		System.out.println(fridge.numberOfClosedRacks);
+		
+
+		// TODO Auto-generated method stub
+
+	}
+
+}
