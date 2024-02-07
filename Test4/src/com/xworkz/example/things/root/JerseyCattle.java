@@ -2,22 +2,22 @@ package com.xworkz.example.things.root;
 
 public class JerseyCattle extends Cow
 {  
-	//@Override
+	@Override
 	public void eat()
 	 {
 		 System.out.println("sub1:EAT");
 	 }
-	//@Override
+	@Override
 	public void reproduce()
 	 {
 		 System.out.println("sub1:REPRODUCE");
 	 }
-	//@Override
+	@Override
 	public void giveMilk()
 	 {
 		 System.out.println("sub1:produce milk");
 	 }
-	//@Override
+	@Override
 	public void giveDung()
 	 {
 		 System.out.println("sub1:used in production of bio_gas");

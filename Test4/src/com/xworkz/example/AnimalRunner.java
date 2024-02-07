@@ -24,11 +24,12 @@ public class AnimalRunner {
 		 animal.eat();
 		 animal.reproduce();
 		// animal.giveMilk();
-		// animal.giveDung();  
+		//animal.giveDung();  
 		 
 		  Cow cow1=(Cow)animal; //convert parent reference to sub class reference
 		  cow1.giveMilk();
 		  cow1.giveDung();  
+		  
 			
 		  System.out.println("-------------------------"); 
 		 

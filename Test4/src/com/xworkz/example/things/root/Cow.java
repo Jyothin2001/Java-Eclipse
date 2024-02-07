@@ -2,12 +2,12 @@ package com.xworkz.example.things.root;
 
 public class Cow extends Animal
 {
-	//@Override
+	@Override
 	public void eat()
 	 {
 		 System.out.println("sub:EAT");
 	 }
-	//@Override
+	@Override
 	public void reproduce()
 	 {
 		 System.out.println("sub:REPRODUCE");
