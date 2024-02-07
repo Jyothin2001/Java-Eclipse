@@ -13,6 +13,9 @@ public class Tank
 			System.out.println("method: sanitizer : " + sani2.quantity);
 			sani2.disinfect();
 			
+			System.out.println("method: sanitizer : " + sani2.aroma);
+			sani2.clean();
+			
 		
 		}
 		 if(hand1 instanceof Soap)

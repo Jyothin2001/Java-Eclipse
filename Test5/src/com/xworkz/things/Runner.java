@@ -15,7 +15,6 @@ public class Runner
 		
 		
 		Handwash hand=new Handwash();  //...
-		tank.run(hand);
 		hand.clean();
 		System.out.println("handwash :"+hand.aroma);
 		
@@ -27,7 +26,7 @@ public class Runner
 		
 		
 		System.out.println("====================");
-		Handwash handwash =new Lux();
+		Handwash handwash =new Sanitizer();
 		tank.run(handwash);
 		System.out.println("====================");
 		
