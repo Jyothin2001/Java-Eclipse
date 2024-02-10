@@ -1,0 +1,278 @@
+1."Java" is a one of the most popular object oriented programing language ,it is called programming language because via we can communicate with the computer.
+-developed by james goasling  in 1991 at sun microsystem named as "oak".
+-later, in 1995 renamed as Java took over by Oracle.
+- java is popular for its platform independent, has a own java virtual machine and it has multithreading.
+
+"javac" the process of converting source code to byte code using java compiler, that byte code makes java platform independent.
+compiler checks the any syntactical error present in program if there is an error occurs then it shows an compilation error.
+
+2.JDK stands for java development kit and it provide tools  to build java application and do complilation.
+ -JRE stands for java runtime environment and it gives environment to run the java program and its a layer in java development kit,also contain java virtual machine and libraries.
+- JVM stands for java virtual machine ,it is a abstract machine and it is called virtual because it is not physically exists.
+   it helps to convert the byte code into machine code using interpreter and also has garbage collection in it.
+   Garbage collection collect unused data that is present in pragoram.
+
+3. .java file is a file that we want to convert to byte code using java compiler.
+   .class file is a file that human can not easily understand, it comes after the compilation, that .class can run on any machine.
+
+4.java IDE's are IntelliJ is paid source ,Ecllips and visual studio both are free and open source.
+
+5.Variables are like container that we can store values ,why we store values because to use the values in somewhere else.
+  types are local variables,parameteric variable,instance variable and static variables
+  
+  Ex: public class Example
+{  
+   int a=100; //Declaration of instance variable
+   static long b;  //Declaration of static variable
+    
+    public Example()
+{
+    System.out.println("default constructor");
+}
+
+   public void run(String name)  //non-static method and parameteric variable
+{
+     byte c=(byte)360; // local variable
+    System.out.println(c);
+}
+
+static
+{
+long b=9876l;
+
+}
+
+
+  public static void main(String[] args)
+{
+
+         run("Rama");
+ }
+}
+ 
+6.java is a object oriented programming language,cause object contains datas and the methods through object we can get any class members.
+
+7.main is just like normal method so  it is method overloading and it has default constructor it execute without any error.
+
+8. Data types in java tells what type of data that variable has .
+   Types are :primitive data type which is built in data and second one is non primitive data which is created by programmer.
+   primitive data type:
+   1.Byte datatype  -1 byte (-127 to 128)
+   2.short datatype  -2byte (-32897 to 32879)
+   3.int datatype     -4 byte
+   4.long datatype     -8byte
+   5.float datatype    - 4 byte
+   6.double datatype   -8 byte
+   7. boolean datatype   -1 bit
+   8.char datatype       -2 byte
+
+Ex:
+ public class Example1
+{   
+   int a=100; 
+   byte c=129;
+   short h=3000;
+   long b=456789l; 
+   float e= 67.9;
+   double f=567.876d;
+   boolean g=true;
+   char f='j';
+   
+    
+public Example1()
+{
+    System.out.println("default constructor");
+}
+
+}
+
+9.Dot operator is a operator which connects two folder and that folder contain another foleds like that or tells that go to that location and get or set the values.
+EX:
+   package com.workz.example  // dot operator
+
+public class Example3
+{
+  
+  public Example3()
+{
+    System.out.println("default constructor");
+}
+
+public void run1()
+{
+ System.out.println("dot operator");
+}
+
+public static void main(String[] args)
+{
+   Example3 example=new Example3();
+    example.runs();   //dot operator
+         
+ }
+}
+
+10.java features are :
+   1.simple-java is easy to understand and syntax is simple
+   2.platform independent- java compiler converts source code to byte code this byte code makes the platform independent and run on any platform .
+   3.multi threading- java allows to do multi threading means perform multiple task at a time so we can get fast output.
+   4.robust-java has Garbage collection and memory management.
+   5.architectural neutral-for 32 bit processor or 64 bit processor the value of a primitive data type is same/fixed compare to other language.
+   6.secure- java has its own java virtual machine so that our opearting system will not affect.
+
+11.Array is a collection of heterogeous element/values.
+   -The array index is start from 0 to n-1.
+   -the size is fixed in array.
+   -we can give n number of elements.
+   -array symbol is box braces [].
+
+  EX:
+ public class Example
+{
+   int[] array={34,53,67,21,98};
+      array[5]=55;
+
+}
+
+12.Class is like a blueprint to  create an object and it contanis methods ,variables,constructor ,inner classes and interface etc and we can make class as public or package default.
+   Object is a super class in java .it is present in built in package called java.lang and also instance of class ,real world entity and it helps to get class members.
+ EX:
+  public class Example5  //class declaration 
+{
+
+  public Example3()  //no param construncto
+{
+    System.out.println(" constructor");
+}
+
+public void jump()  //method
+{
+ System.out.println("method");
+}
+
+public static void main(String[] args)
+{
+   Example5 example=new Example5();  //object creation / instantiation
+    exampl5.jump();  //invoking
+         
+ }
+}
+
+13.keyword : public, static, protected,private,finally,final,return,void ,native,int,boolean,float etc.,
+ EX:
+public class Example6
+{  
+   int a=100; 
+   static long b;
+   double f=567.876d; 
+   float g=678.8;
+    
+    
+   protected public Example()
+{
+    System.out.println("default constructor");
+}
+
+   public byte run(byte c)  
+{
+     byte c=(byte)360; 
+      return c;
+    
+}
+public void run1()
+{
+   System.out.println("method");
+}
+
+static
+{
+long b=9876l;
+
+}
+
+
+  public static void main(String[] args)
+{
+
+         run1();
+         run();
+ }
+}
+
+14.constructor is a special method used to initialize the instance variables.
+  -it has no explicit return type
+  - we can do constructor chaining
+
+ rules:
+-constructor name should be has same as class name.
+  
+ways to achieve construcor overloading:having same name but different in parameter
+ -change the type of parameter.
+ -change the order of parameter.
+ -change the number of parameter.
+
+types are:
+1.defalut constructor :complier will provide.
+2. No parameter constructor:
+example :public class Example6
+{
+  
+  public Example6()
+{
+    System.out.println("no param constructor");
+}
+
+
+3.with parameter constructor:
+public class Example7
+{
+  
+  public Example7(int a,String name)
+{
+    System.out.println("with parm constructor");
+}
+
+
+15.main mrthod is static because when we make main method as static jvm defaultly goes to main method and  does need object to call main method
+
+16.
+public class Example8
+{
+   int[] array={12,3,2,45,6,7,6};
+   System.out.println(array.length()); //I dont know but try
+     
+}
+
+17. 
+ways to achieve method overloading:having same name but different in parameter
+ -change the type of parameter.
+ -change the order of parameter.
+ -change the number of parameter.
+
+method overriding:
+it happens when you want to  call the same method from parent to sub class .
+
+
+EX:
+public class Example9  //parent
+{  
+     public Example9(int a ,String name,float b) //constructor overloading:type,order,number of
+{
+    System.out.println("default constructor");
+}
+
+public void run()
+{
+   System.out.println("method");
+}
+}
+
+EX:
+public class Example10  //parent
+{  
+    
+@overriding
+public void run()  // same name ,return type and parameter
+{
+   System.out.println("hello");
+}
+}
