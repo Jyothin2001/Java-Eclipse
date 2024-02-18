@@ -26,7 +26,7 @@ public class Stand
 	@Override
 	public boolean equals(Object obj) 
 	{
-		System.out.println("stand : "+this);
+		
 		
 		if(obj!=null&&obj instanceof Stand)
 		{

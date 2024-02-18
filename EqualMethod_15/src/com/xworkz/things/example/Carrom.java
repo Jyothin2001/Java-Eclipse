@@ -28,8 +28,6 @@ public class Carrom
 		@Override
 		public boolean equals(Object obj) 
 		{
-			
-			System.out.println("Carrom"+this);
             if(obj != null && obj instanceof  Carrom)
 			{
 				

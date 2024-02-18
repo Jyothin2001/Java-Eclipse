@@ -26,12 +26,9 @@ public class Ladder
 		}
 
 		@Override
-		public boolean equals(Object obj) {
-			
-			System.out.println("equals in:"+this);
-			
-			
-			
+		public boolean equals(Object obj)
+		{
+		
 			if(obj != null && obj instanceof  Ladder)
 			{
 				

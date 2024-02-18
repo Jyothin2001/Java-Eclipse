@@ -31,7 +31,6 @@ public class Plate
 		public boolean equals(Object obj) 
 		{
 			
-			System.out.println("equals in:"+this);
 			if(obj != null && obj instanceof  Plate)
 			{
 				

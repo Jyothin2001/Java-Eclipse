@@ -26,10 +26,6 @@ public String toString()
  @Override
 public boolean equals(Object obj)
 {
-	
-	System.out.println("Belt : "+this);
-	
-	
 	if(obj!=null && obj instanceof Belt)
 	{
 		Belt belt=(Belt)obj;
