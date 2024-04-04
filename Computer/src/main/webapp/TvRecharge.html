@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TV Recharge</title>
+
+<script>
+function click1()
+{
+	
+	var a=document.getElementById("customer").value;
+	var c=document.getElementById("dis");
+	 c.disabled=true;
+      if(a=='')
+    {
+          var b=document.getElementById("custerr")
+          b.innerHTML="please! Enter customer Id"
+         b.style.color="red";
+         
+    }
+      else if(a.length<=8)
+    	  {
+    	  var b1=document.getElementById("custerr")
+          b1.innerHTML="please! Enter charecters more than 8"
+         b1.style.color="red";
+    	  
+    	  }
+
+      else  if(a.length>=8)
+	  {
+    	 
+	  var b1=document.getElementById("custerr")
+      b1.innerHTML="Its Good Continue"
+     b1.style.color="green";
+	  
+
+      }
+     
+
+      
+      var h=document.getElementById("amount1")
+      if(h.value=='')
+    {
+        var h=document.getElementById("basic-addon1");
+          h.innerHTML="please! Enter Amount"
+         h.style.color="red";
+         
+
+    }
+      
+      var ac1=document.getElementById("vendor1").value;
+          if(ac1=='')
+    	{
+  
+    		var vendorError=document.getElementById("vendorerr")
+    		vendorError.innerHTML="Please Select pp Vendor"
+    		vendorError.style.color="red"
+    			 
+  }
+      
+      
+      /* var ac2=document.getElementById("type1").value;
+      if(ac2=='')
+    {
+        var h9=document.getElementById("typeerr");
+          h9.innerHTML="please! Enter type"
+         h9.style.color="red";
+         
+
+ }
+ */
+ var type=document.getElementById("flexRadioDefault1").value;
+if(type.radio1.checked==false)
+	{
+	var h9=document.getElementById("typeerr1");
+    h9.innerHTML="please! radio"
+   h9.style.color="red";
+  
+	}
+     /* if(!checkbox.checked)
+    {
+        var h10=document.getElementById("acc1");
+        h10.innerHTML="please! Enter accept"
+         h10.style.color="red";
+        
+
+    }
+ */      if(!checkbox.checked){
+  	
+  		var checkboxError=document.getElementById("acc1")
+  		checkboxError.innerHTML="Please Accept"
+  		checkboxError.style.color='red'
+  		return;
+  	}
+    
+         c.disabled=false;
+      
+
+	}
+
+</script>
+
+
+
+
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+<div align="center">
+<nav class="navbar navbar-light " style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class=" btn btn-primary navbar-brand" href="index.html">Home</a>
+     
+  </div>
+</nav>
+
+</div>
+
+<div align="center">
+<h2 style="color:blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TvRecharge Form</h2>
+
+
+<form name="radio1" class="container mt-xxl-5  w-50" onsubmit="click1()" action="tv" method="post">
+
+<div class="input-group mb-3 ">
+  <span class="input-group-text" id="custerr">Customer Id:</span>
+  <input type="text" name="Id" value="" id="customer" class="form-control" placeholder="Enter Id" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3 ">
+  <span class="input-group-text"  id="basic-addon1">Recharge Amount: </span>
+  <input type="text" value="" name="amount" id="amount1" class="form-control" placeholder="Enter Amount" aria-label="Username" aria-describedby="basic-addon1">
+</div><br>
+
+  
+ 
+
+ 
+  Select Vendors
+  <select class="form-select custom-select " name="vendor" id="vendor1" aria-label=".form-select-lg example" >
+  <option selected value="">--- select Vendor---- &nbsp;</option>
+  <option value="Airtel Digital TV"> Airtel Digital TV</option>
+  <option value="Dish TV">Dish TV</option>
+  <option value="Tata Play">Tata Play</option>
+      
+</select>
+ <span id="vendorerr"></span>
+<br>
+  
+  
+  
+  
+  
+   
+ 
+
+  <!-- Select Type<select name="type" id="type1" class="form-select  " aria-label=".form-select-lg example" >
+  
+  <option selected value="">---- select  Recharge Type---</option>
+   <option value="Monthly">Monthly </option>
+       <option value="Ott">Ott</option>
+       <option value="Top up">Top up</option>
+ </select>
+ <span id="typeerr"></span>
+ 
+  <br>
+  -->
+  
+  
+  <span id="typeerr1"></span>
+  Select Recharge Type<div class="form-check">
+  <input class="form-check-input" value="true" type="radio" name="flexRadioDefault" id="flexRadioDefault1"> Monthly
+  <label class="form-check-label" for="flexRadioDefault1">
+   
+  </label>
+  </div>
+  <div class="form-check">
+  <input class="form-check-input" value="true" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Ott
+  </label>
+   </div>
+  
+  <div class="form-check">
+  <input class="form-check-input" value="true" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Top up
+  </label>
+  
+</div>
+
+
+
+
+
+
+ <label for="Select Checkbox">
+            <input type="checkbox"  name="accept"  value="yes" id="checkbox"> Accept
+            <span id="acc1"></span>
+        </label>
+
+ <!-- 
+<span id="acc1"></span>
+<div>
+<label for="Select Checkbox">
+   <input type="checkbox" name="accept" id="acc"  >Accept
+   </label>
+   </div>
+  --> <!-- <span id="acc1"></span>
+  <div class="list-group">
+  <label class="list-group-item">
+    <input name="accept" id="acc" class="form-check-input me-1" type="checkbox" value="" >
+    Accept
+  </label>
+  </div><br>
+   -->
+
+  
+  <div class="col-12">
+    <button class="btn btn-primary" onclick="click1()" id="dis"  type="submit">Submit form</button>
+  </div>
+</form>
+</div>
+
+
+
+</body>
+</html>
