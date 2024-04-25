@@ -13,7 +13,7 @@ public class Methods {
 		Collection<String> color= new ArrayList<String>();
 		//Adding elements
 		color.add("Blue");
-		color.add("Pink");
+		color.add("pink");
 		color.add("Yellow");
 		color.add("Red");
 		color.add("Purple");
