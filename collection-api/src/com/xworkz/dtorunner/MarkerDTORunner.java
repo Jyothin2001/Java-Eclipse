@@ -31,7 +31,7 @@ public class MarkerDTORunner
      {
     	 MarkerDTO a= itr1.next();
     	 
-    	 if(a.getBrand().startsWith("S"))
+    	 if(a.getBrand().startsWith("s"))
     		 System.out.println("starts with S: "+a);
     		 
     		 
